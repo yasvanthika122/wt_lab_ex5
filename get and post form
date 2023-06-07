@@ -1,1 +1,97 @@
 
+<!doctype html>
+<html>
+<head>
+<title>Registration form</title>
+</head>
+
+<body style="background-color:Silver">
+<h1 style="background-color:rgba(255, 99, 71, 0.5);text-align:center;">Registration Form </h1>
+
+ 
+<form action="http://localhost:7000" method="GET">
+
+<div>
+
+<p>Please fill in the details.</p>
+<hr><div>
+
+<fieldset>
+<legend>Personal detalis.</legend><br>
+<label for="Name"><b>Enter Name</b></label>
+<input type="text" placeholder="Enter Name" id="fname" name="fname">
+<br><br>
+
+<label for="email"><b>Enter Email</b></label>
+<input type="text" placeholder="Enter Email" id="mail"></b>
+<br><br>
+<label for="pwd"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="pwd">
+<br><br>
+
+<label for="confirm"><b>Confirm Password</b></label>
+<input type="password" placeholder="Confirm Password" name="confirm">
+<br><br>
+</fieldset>
+<hr>
+
+<fieldset>
+<legend>Addtional detalis.</legend><br>
+<label for="CurrentgggggAddress"><b>Current Address</b></label>
+<textarea id="w3review"  name="Enter Address" placeholder="Enter Address" rows="4" cols="50"></textarea>
+<br><br>
+
+<label for="ph no"><b>Enter Phone Number</b></label>
+<input type="text" placeholder="Enter phonenumber" name="email"></b>
+<br><br>
+
+
+
+<br><br>
+</fieldset>
+
+<fieldset>
+<legend>Booking Details</legend><br>
+<label for="Name"><b>From</b></label>
+<input type="text" placeholder="Current Location" name="name">
+<br><br>
+
+<label for="email"><b>To</b></label>
+<input type="text" placeholder="Destination" name="email"></b>
+<br><br>
+<label for="email"><b>All Classes</b></label><br>
+ <input type="radio" id="Ac First Clss" name="fav_language" value="HTML">
+<label for="html">Ac First Class</label><br>
+<input type="radio" id="AC 3 Economy" name="fav_language" value="CSS">
+<label for="css">AC 3 Economy</label><br>
+<input type="radio" id="Sleeper" name="fav_language" value="JavaScript">
+<label for="javascript">Sleeper</label> <br>
+<br>
+<label for="email"><b>Addtional Details</b></label><br>
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Person with disability</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Train with available berth</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Railway pass concession</label><br><br>
+
+</form>
+
+</fieldset>
+
+
+
+<hr>
+
+
+</fieldset>
+<hr>
+<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+<button type="submit" ><strong>Register</strong></button>
+</div>
+<p>Already have an account? <a href="#">Sign in</a>.</p>
+
+</form>
+</body>
+</html>
